@@ -14,33 +14,39 @@
         <div class="quizBox">
             <h2 id="questionID">Question 1</h2>
             <h3 id="questionText">Question goes here</h2>
+
+            <div class="questionBox">
+                <input type="radio" name="answer" value="0">
+                <label id="answer1" for="answer1">Answer 1</label><br>
+
+                <input type="radio" name="answer" value="1">
+                <label id="answer2" for="answer2">Answer 2</label><br>
+
+                <input type="radio" name="answer" value="2">
+                <label id="answer3" for="answer3">Answer 3</label><br>
+
+                <input type="radio" name="answer" value="3">
+                <label id="answer4" for="answer4">Answer 4</label><br>
+
+                <button class="answerButton" type="submit" value="submit" onclick="GetAnswer()">Submit</button>
+            </div>
+            <div class="solutionBox">
+                <h4 id="userAnswer">Your answer: User's Answer</h4>
+                <h3>Correct</h3>
+            </div>
         </div>
-        <div class="solutionBox">
-            <input type="radio" name="answer" value="answer1">
-            <label id="answer1" for="answer1">Answer 1</label><br>
 
-            <input type="radio" name="answer" value="answer2">
-            <label id="answer2" for="answer2">Answer 2</label><br>
 
-            <input type="radio" name="answer" value="answer3">
-            <label id="answer3" for="answer3">Answer 3</label><br>
-
-            <input type="radio" name="answer" value="answer4">
-            <label id="answer4" for="answer4">Answer 4</label><br>
-        </div>
-        
-        
-        
     </div>
     <div class="footer">
-
+        <h1>Quiz Game</h1>
     </div>
-
 
 
 
 
 
 </body>
+<script src="quiz.js"></script>
 
 </html>

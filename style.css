@@ -46,10 +46,49 @@ body {
     background-color: white;
 }
 
+.questionBox {
+    padding-left: 50px;
+}
+
+label {
+    color: rgb(60, 57, 207);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.answerButton {
+    padding: 10px 100px;
+    border-radius: 15px;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(58, 58, 58);
+    margin-top: 15px;
+}
+
+.solutionBox {
+    color: darkslategray;
+    font-size: 25px;
+    padding: 5px 50px;
+}
+
+.solutionBox h3 {
+    text-align: center;
+    margin: none;
+}
+
 .footer{
     background-color: darkseagreen;
     min-height: 75px;
     border-radius: 20px;
     width: 100%;
     margin-top: 70px;
+}
+
+.footer h1 {
+    color: rgb(60, 57, 207);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 55px;
+    text-align: center;
 }
